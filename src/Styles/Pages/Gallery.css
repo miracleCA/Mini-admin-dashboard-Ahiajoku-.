@@ -1,0 +1,23 @@
+#gallery {
+    display: grid;
+}
+#gallery #main2 {
+    padding: 2% 0px;
+}
+#gallery #main2 .col-3 {
+    height: unset;
+    margin-top: 2%;
+    margin-right: 1%
+}
+#gallery #main2 .col-3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 0px;
+}
+#gallery #main2 {
+    text-align-last: center;
+    justify-content: center;
+}
+#gallery #main2 form  {
+    width: max-content;
+}

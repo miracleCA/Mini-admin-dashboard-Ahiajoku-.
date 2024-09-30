@@ -1,0 +1,30 @@
+#topnav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1% 0px;
+    align-items: center;
+}
+#logo {
+    width: 20%;
+    padding: 0px 3%;
+}
+#topnav a, #topnav img {
+    width: inherit;
+}
+#admindt {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 3%;
+}
+#admindt img  {
+    width: 15%;
+    height: -webkit-fill-available;
+    padding-right: 20px;
+}
+#admindt p {
+    margin: 0px;
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}

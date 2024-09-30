@@ -1,0 +1,26 @@
+#sidenav {
+    height: 100%;
+    width: 15%;
+    display: grid;
+    background-color: white;
+    height: -webkit-fill-available;
+    padding: 2% 0px;
+}
+#sidenav i {
+    padding-left: 7%;
+    padding-right: 7%;
+    font-size: 20px;
+}
+#sidenav a {
+    text-decoration: none;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: #202224;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    cursor: pointer;
+}
+#sidenav a:active, #sidenav a:hover, #sidenav a:focus {
+    background-color: #308A11;
+    color: white;
+}

@@ -1,0 +1,92 @@
+#lecturers {
+    display: grid;
+}
+#lecmain {
+    display: flex;
+}
+#mainbd {
+    height: 100%;
+    width: 85%;
+    padding: 2% 2%;
+    background-color: #eaeaea;
+}
+#main1 {
+    justify-content: space-between;
+    font-family: Nunito Sans;
+}
+#main1, #main1 span, #main1 button, #main2 {
+    display: flex;
+}
+#main1 span input {
+    width: 80%;
+    border: 2px solid #CECECE;
+    border-radius: 10px;
+    font-size: 25px;
+    padding: 0px 2%;
+    height: 50px;
+}
+#main1 span input::placeholder {
+    color: #CECECE;
+}
+#main1 span button {
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    color: #308A11;
+    border-radius: 10px;
+    border: 2px #308A11 solid;
+    width: 18%;
+    height: 50px;
+    padding: 0px 3%;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+#main1 span button img {
+    height: -webkit-fill-available;
+    padding-top: 7%;
+    padding-bottom: 7%;
+}
+#buttn {
+    height: 50px;
+    text-align: center;
+    background-color: #308A11;
+    color: white;
+    width: 10%;
+    border: none;
+    text-align: center;
+    align-items: center;
+    place-content: center;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Nunito Sans;
+    font-weight: 700;
+    cursor: pointer;
+}
+#main2 {
+    padding: 2% 0px;
+}
+#main2 .col-3 {
+    width: 24%;
+    display: grid;
+    height: 350px;
+    text-align: center;
+    align-content: center;
+    justify-self: center;
+    justify-items: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+#main2 .col-3 img {
+    width: 70%;
+    height: auto;
+    border-radius: 1000px;
+
+}
+#main2 .col-3 p {
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Nunito Sans;
+}
